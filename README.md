@@ -9,13 +9,13 @@
 
 ## 動作保証環境
 
-Trình duyệt: Chrome, Edge, Firefox, IE 11.
+ブラウザ：Google Chrome, Microsoft Edge, Firefox, Internet Explorer 11
 
 ## 使い方
 
-Tại file ./manual.pdf.
+ ./manual.pdfをご参照ください。
 
-## 利用 OSS
+## 利用OSS
 
 本ツールでは、学習指導要領コードを検索する処理において、 　経済産業省がオープンソース（MIT LICENSE）として公開している IMI コンポーネントツールである 　「産業分類候補生成パッケージ一式」を利用しています。 　 　[参照] 　https://info.gbiz.go.jp/tools/imi_tools/index.html 　https://github.com/code4sabae/imi-enrichment-jsic-es 　 　 　
 その他、以下の OSS を利用しています。
