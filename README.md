@@ -1,46 +1,32 @@
-# ICON Search
+# ICON Search System
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-## Installation
+## ツール概要
 
-Requires [Node.js](https://nodejs.org/) v16.13.1 to run.
+検索条件に従い、学習指導要領 DS と学習指導要領解説 DS を検索する。
+検索した学習指導要領 DS の内容を表示する。
 
-Install the dependencies and devDependencies and start the server.
+## 動作保証環境
 
-Test on window, install lib
+Trình duyệt: Chrome, Edge, Firefox, IE 11.
 
-```sh
-npm install -g win-node-env
-```
+## 使い方
 
-Run on Development enviroment
+Tại file ./manual.pdf.
 
-```sh
-cd icon-search
-npm i
-npm run watch:dev
-```
+## 利用 OSS
 
-Run on Production enviroment
+本ツールでは、学習指導要領コードを検索する処理において、 　経済産業省がオープンソース（MIT LICENSE）として公開している IMI コンポーネントツールである 　「産業分類候補生成パッケージ一式」を利用しています。 　 　[参照] 　https://info.gbiz.go.jp/tools/imi_tools/index.html 　https://github.com/code4sabae/imi-enrichment-jsic-es 　 　 　
+その他、以下の OSS を利用しています。
 
-```sh
-npm run start
-```
+| Plugin          |                                                 | MIT License |
+| --------------- | ----------------------------------------------- | ----------- |
+| Express v4.18.2 | [https://github.com/expressjs/express][express] | Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca><br/> Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com> Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>|
+| SQLite v5.1.4   | [https://www.npmjs.com/package/sqlite3][sql]    | Copyright (c) MapBox All rights reserved. |
+| Jquery v1.8.3   | [https://jquery.com/download/][jquery]          | Copyright (c) JS Foundation and other contributors | jquery.org/license            |
 
-## Plugins
-
-Dillinger is currently extended with the following plugins.
-Instructions on how to use them in your own application are linked below.
-
-| Plugin  | README                                |
-| ------- | ------------------------------------- |
-| Express | [plugins/express/README.md][express]  |
-| SQLite  | [plugins/sqlite/README.md][sql]       |
-| GitRepo | [plugins/git/README.md][git-repo-url] |
-
-Verify the deployment by navigating to your server address in
-your preferred browser.
+Xác minh việc deploy ứng dụng thành công bằng cách điều hướng trình duyệt của bạn đến địa chỉ máy chủ
 
 ```sh
 127.0.0.1:3000
@@ -50,9 +36,7 @@ your preferred browser.
 
 WFC
 
-**Free Software, Hell Yeah!**
-
 [//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
-[sql]: https://www.sqlitetutorial.net/sqlite-nodejs/
-[git-repo-url]: https://github.com/joemccann/dillinger.git
-[express]: http://expressjs.com
+[sql]: https://www.npmjs.com/package/sqlite3
+[jquery]: https://jquery.com/download/
+[express]: https://github.com/expressjs/express
