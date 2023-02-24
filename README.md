@@ -26,7 +26,7 @@
 | SQLite v5.1.4   | [https://www.npmjs.com/package/sqlite3][sql]    | Copyright (c) MapBox All rights reserved. |
 | Jquery v1.8.3   | [https://jquery.com/download/][jquery]          | Copyright (c) JS Foundation and other contributors | jquery.org/license            |
 
-## License
+## License ライセンス
 
 WFC
 
