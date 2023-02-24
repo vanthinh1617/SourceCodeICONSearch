@@ -26,12 +26,6 @@ Tại file ./manual.pdf.
 | SQLite v5.1.4   | [https://www.npmjs.com/package/sqlite3][sql]    | Copyright (c) MapBox All rights reserved. |
 | Jquery v1.8.3   | [https://jquery.com/download/][jquery]          | Copyright (c) JS Foundation and other contributors | jquery.org/license            |
 
-Xác minh việc deploy ứng dụng thành công bằng cách điều hướng trình duyệt của bạn đến địa chỉ máy chủ
-
-```sh
-127.0.0.1:3000
-```
-
 ## License
 
 WFC
